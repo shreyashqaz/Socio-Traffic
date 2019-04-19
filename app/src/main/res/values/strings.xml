@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Socio-Traffic</string>
+    <string name="username">Username</string>
+    <string name="emailid">Emailid</string>
+    <string name="log_in_form">Log In form</string>
+    <string name="email_id">Email id</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="allready_an_user_click_here">Allready an user?(Click here)</string>
+    <string name="about">
+        SocioTraffic is developed as a group project under the CDAC-Noida
+        institution in guidance of Ms. Rosy Verma.Joint efforts of Shreyash Singh, Uditi Jain,
+        Jyoti Rai and Dinesh Kumar have made an attempt to ease traffic struck life of people in
+        Delhi.Socio-Traffic works to create a hassle-free drive time for the users of app by empowering
+        them with traffic updates in their area through socializing on the app via posts from other
+        users.We at Socio traffic aim to exempt out users the troublesome traffic jam and help them
+        into a smooth and on time ride.We understand the value of time but more valuable is life.
+        Our users can actively help the ones in need by contacting nearest hospitals in their area
+        by the contact details yhat we have provided.
+    </string>
+    <string name="text1">Q.What should I do if I am stopped by traffic police?\n Ans: You can do either of the following things:\n 1. Pay-up: Pay the compounding amount against a receipt or\n 2. Contest: Surrender a document (like driving license) against a challan receipt and attend the court on a given date. In the court, after contesting the case, you will be either: i) acquitted or ii) fined. </string>
+
+    <string name="text2">Q. What documents should a driver carry when driving?\n Ans: A driver should carry following documents when driving:\n 1. Driving License\n 2. Registration certificate\n 3. Taxation Certificate\n 4. P.U.C Certificate\n 5. Insurance Certificate.\n 6. Fitness Certificate and permit. </string>
+
+    <string name="text3">Q.What are duties of a driver in case of an accident?\n Ans: The driver duties include:\n 1. Arrange some medical help.\n 2. Inform police. </string>
+
+    <string name="text4">Q. How Can I edit my profile?\n Ans: You could simply go to “Profile” in “Menu” panel and click on “Edit” to make changes and “Save” after done. </string>
+
+    <string name="text5">Q. What does reported in my post mean?\n Ans: If any content is offensive and another user of the app finds it in appropriate, they can report it. </string>
+
+    <string name="text6">Q. What Action will be taken if my post is reported?\n Ans: If your post has been reported 5 times the post will be automatically deleted from the timeline. </string>
+
+    <string name="text7">Q. Why is there a list of Hospitals in the app?\n Ans: In case you witness any accident, these listed hospitals are the nearest in your current area that you can contact for first aid. </string>
+
+    <string name="text8">Q. What can I do in case my vehicle has been towed?\n Ans: Contact the nearest Traffic Circle. You will be required to pay compounding amount for improper parking plus towing away charges depending upon your vehicle type. </string>
+
+</resources>

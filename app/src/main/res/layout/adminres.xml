@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/userRL">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:background="@drawable/userlistdesign">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/user_profile_image"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/profile" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="5dp"
+                android:gravity="start"
+                android:text="user_name"
+                android:textAlignment="textStart"
+                android:textColor="#E91E63"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="18dp"
+                android:id="@+id/rg">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ACTIVE"
+                    android:checked="true"
+                    android:textStyle="bold"
+                    android:textColor="#E91E63"
+                    android:id="@+id/rbactive"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="#E91E63"
+                    android:text="INACTIVE"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/rbdeactive"
+                    />
+            </RadioGroup>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
